@@ -1,0 +1,16 @@
+.main-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    max-height: 100vh;
+    padding: 2rem 5rem;
+    
+    .games-container{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        gap: 1rem;
+    }
+}

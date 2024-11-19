@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="image-container">
+        <img [src]="imgUrl" alt="Game">
+    </div>
+    <div class="info-container">
+        <span id="tag" *ngIf="isExclusive">Exclusive</span>
+        <div id="msg">
+            <p>{{ msg }}</p>
+        </div>
+        <div class="info">
+            <div class="title">
+                <p>{{ description }}</p>
+            </div>
+            <div class="price">
+                <p>R${{ price }}</p>
+            </div>
+        </div>
+    </div>
+</div>
